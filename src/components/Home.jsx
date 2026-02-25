@@ -6,10 +6,7 @@ const Home = () => {
 
   return (
     <div
-      className={`min-h-screen flex flex-col justify-center items-center transition duration-300
-        ${theme === "light" ? "bg-white text-black" : "bg-black text-white"}
-    `}
-    >
+      className="min-h-screen flex flex-col justify-center items-center transition duration-300 bg-white text-black dark:bg-black dark:text-white" >
       <p> Current theme is {theme}</p>
     </div>
   );
